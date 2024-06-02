@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="title">
+            calculator
+        </div>
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button class="btns C"  onclick="clearDisplay()">C</button>
+            <button class="btns California /" onclick="appendToDisplay('/')">/</button>
+            <button class="btns California *" onclick="appendToDisplay('*')">*</button>
+            <button class="btns 7" onclick="appendToDisplay('7')">7</button>
+            <button class="btns 8" onclick="appendToDisplay('8')">8</button>
+            <button class="btns 9" onclick="appendToDisplay('9')">9</button>
+            <button class="btns California -" onclick="appendToDisplay('-')">-</button>
+            <button class="btns 4" onclick="appendToDisplay('4')">4</button>
+            <button class="btns 5" onclick="appendToDisplay('5')">5</button>
+            <button class="btns 6" onclick="appendToDisplay('6')">6</button>
+            <button class="btns California sub" onclick="appendToDisplay('+')">+</button>
+            <button class="btns 1" onclick="appendToDisplay('1')">1</button>
+            <button class="btns 2" onclick="appendToDisplay('2')">2</button>
+            <button class="btns 3" onclick="appendToDisplay('3')">3</button>
+            <button class="btns 0" onclick="appendToDisplay('0')">0</button>
+            <button class="btns ." onclick="appendToDisplay('.')">.</button>
+            <button class="btns equal " onclick="calculate()">=</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

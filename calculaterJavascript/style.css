@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: url(geometry-mathematics-calculator-cube.jpg);
+
+}
+.title{
+   font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.calculator #display {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: inset 0 0 10px #0a0a0a;
+    height: 60px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: right;
+    width: 96%;
+    border: none;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+.calculator .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.btns {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    height: 75px;
+    border: 20px;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.calculator .C {
+    grid-column: span 2;
+}
+.calculator .sub{
+    grid-row: span 2;
+    height: 160px;
+}
+.calculator .equal {
+    grid-column: span 2;
+    background-color: #34ECBC;
+}
+.California{
+    background-color:  #F6920D;
+}
+
+
+
+
+
+.calculator .buttons button:hover {
+    background-color: #ddd;
+}
